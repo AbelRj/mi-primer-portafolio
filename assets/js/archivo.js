@@ -43,6 +43,15 @@ function efectoHabilidades() {
       document.getElementById("bootstrap").classList.add("barra-progreso-bootstrap");
       document.getElementById("sql").classList.add("barra-progreso-sql");
       document.getElementById("git").classList.add("barra-progreso-git");
+      document.getElementById("typeScript").classList.add("barra-progreso-typeScript");
+      document.getElementById("angular").classList.add("barra-progreso-angular");
+      document.getElementById("Material-Angular").classList.add("barra-progreso-material");
+      document.getElementById("mysql").classList.add("barra-progreso-mysql");
+      document.getElementById("mongoDB").classList.add("barra-progreso-mongoDB");
+      document.getElementById("TypeOrm").classList.add("barra-progreso-TypeOrm");
+
+
+
     } else {
       document.getElementById("html-css").classList.remove("barra-progreso-html-css");
       document.getElementById("js").classList.remove("barra-progreso-js");
@@ -51,6 +60,12 @@ function efectoHabilidades() {
       document.getElementById("bootstrap").classList.remove("barra-progreso-bootstrap");
       document.getElementById("sql").classList.remove("barra-progreso-sql");
       document.getElementById("git").classList.remove("barra-progreso-git");
+      document.getElementById("typeScript").classList.remove("barra-progreso-typeScript");
+      document.getElementById("angular").classList.remove("barra-progreso-angular");
+      document.getElementById("Material-Angular").classList.remove("barra-progreso-material");
+      document.getElementById("mysql").classList.remove("barra-progreso-mysql");
+      document.getElementById("mongoDB").classList.remove("barra-progreso-mongoDB");
+      document.getElementById("TypeOrm").classList.remove("barra-progreso-TypeOrm");
     }
   }
 
